@@ -8,7 +8,7 @@ class Shoe
   attr_reader :brand
 
  def cobble(r)
-  r.eql?("old") ? puts "Your shoe is as good as new!" : @condition="new"
+  r.eql?("old") ? (puts "Your shoe is as good as new!") : (@condition="new")
  end
 end
 
