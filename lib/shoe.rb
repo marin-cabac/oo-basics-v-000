@@ -11,6 +11,3 @@ class Shoe
   r.eql?("old") ? (puts "Your shoe is as good as new!") : (@condition="new")
  end
 end
-
-
- 
