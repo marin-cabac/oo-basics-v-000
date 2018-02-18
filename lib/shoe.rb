@@ -7,4 +7,7 @@ class Shoe
   end
   attr_reader :brand
 
+ def coble
+   puts "the shoe has been repaired"
+ end 
 end
